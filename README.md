@@ -1,16 +1,19 @@
 
-# Airtravel provider for Faker
+# STUB copied from airtravel do not use yet
 
+
+# Weather Data provider for Faker
+
+A java example:https://dius.github.io/java-faker/apidocs/com/github/javafaker/Weather.html
 
 ## Acknowlegements
 
 
-`faker_airtravel` is a provider for the `Faker` Python package, and a fork of https://github.com/kennethwsmith/faker_vehicle.  I would like to thank the maintainer of that repository, since I used the structure to create this one.
-
+`faker_weather` is a provider for the `Faker` Python package.  
 
 ## Description
 
-`faker_airtravel` provides airtravel related fake data for testing purposes.  The definition of "fake" in this context really means "random," as the airport codes, cities, and locations are real.  However, I make no claims about accuracy, so do not use this as location data!
+`faker_weather` provides weather related fake data for testing purposes.  
 
 
 ## Installation
@@ -18,7 +21,7 @@
 Install with pip:
 
 ``` bash
-pip install faker_airtravel
+pip install faker_weather
 
 ```
 
@@ -27,8 +30,8 @@ Add as a provider to your Faker instance:
 ``` python
 
 from faker import Faker
-from faker_airtravel import AirTravelProvider
-fake.add_provider(AirTravelProvider)
+from faker_airtravel import WeatherProvider
+fake.add_provider(WeatherProvider)
 
 ```
 
@@ -39,7 +42,7 @@ fake = Faker()
 
 ```
 
-
+### TODO update examples below
 ### Airport Object
 
 ``` python
